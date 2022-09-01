@@ -1,15 +1,9 @@
 ﻿namespace LeaveManagement.web.Data
 {
-    public class LeaveType {
-        public int Id { get; set; }
+    public class LeaveType : BaseEntity {
+
         public string Name { get; set; }
         public int DefaultDays { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateModified { get; set; }
-
-
-
-
 
     }
 }
